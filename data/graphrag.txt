@@ -1,0 +1,3 @@
+GraphRAG extends RAG using knowledge graphs.
+It stores entities and relationships.
+GraphRAG performs multi-hop reasoning across connected data.

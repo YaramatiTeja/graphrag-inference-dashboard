@@ -1,0 +1,30 @@
+# GraphRAG Hackathon - Minimal Dependencies
+# No ChromaDB (removed due to Windows/Python 3.12 compatibility issues)
+
+# Core LLM & API
+google-generativeai==0.8.3
+
+# Embeddings
+sentence-transformers==3.0.1
+
+# UI & Data Processing
+streamlit==1.35.0
+pandas==2.2.0
+
+# Evaluation & Benchmarking
+bert-score==0.3.13
+scikit-learn==1.4.2
+
+# Utilities
+python-dotenv==1.0.0
+networkx==3.2.1
+
+# PDF processing (optional, for ingestion)
+pypdf==4.0.1
+langchain==0.1.20
+langchain-text-splitters==0.0.1
+langchain-community==0.0.38
+
+# Development (optional)
+# ipython==8.18.1
+# jupyter==1.0.0

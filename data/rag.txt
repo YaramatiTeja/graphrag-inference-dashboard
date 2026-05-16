@@ -1,0 +1,3 @@
+RAG stands for Retrieval Augmented Generation.
+It retrieves relevant information before generating answers.
+RAG helps large language models answer questions using external documents.
